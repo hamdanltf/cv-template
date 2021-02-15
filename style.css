@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 11pt;
+}
+
+html {
+    width: 21cm;
+    max-height: 29.7cm;
+}
+
+.container {
+    margin: .2cm .5cm;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+* p,* b, * i {
+    padding: 5pt 0px;
+    letter-spacing: .5px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 20pt;
+    padding: 5px 0px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img {
+    width: 180px;
+    border-radius: 90px;
+}
+
+.name li {
+    list-style: none;
+}
+
+sub-head ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+sub-head li{
+    padding: 5px 20px 5px 0px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.right, .left {
+    max-width: 50%;
+    padding: 0px 10px;
+}
+
+.content li {
+    margin-left: 20px;
+}
+
+.skill ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill li {
+    list-style: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.portofolio {
+    padding: 5px;
+}
+
+.portofolio p {
+    padding: 0px;
+}
+
+.training {
+    padding: 5px 0px;
+}
+
+.qr {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.qr img {
+    border-radius: 0px;
+    height: 70px;
+    width: 70px;
+    margin-top: 10px;
+    /* margin-left: -60px; */
+    margin-right: 20px;
+}
+
+hr {
+    margin: 8px 0px;
+}
+
+.dis {
+    text-align: right;
+}
+
+.dis i {
+    font-size: 8pt;
+}
